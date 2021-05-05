@@ -20,9 +20,9 @@ import("${build_root}/chip/tools.gni")
 assert(chip_build_tools)
 
 executable("chip-tv-app") {
-  sources = [ 
+  sources = [
+    "${chip_root}/examples/tv-app/tv-common/include/CHIPProjectAppConfig.h",
     "main.cpp",
-    "${chip_root}/examples/tv-app/tv-common/include/CHIPProjectAppConfig.h"
   ]
 
   deps = [

@@ -21,6 +21,8 @@ You need Android SDK 21 & NDK downloaded to your machine. Set the
 `$ANDROID_NDK_HOME` environment variable to point to where the NDK package is
 downloaded.
 
+You need the gcc and libssl-dev and libavahi-client packages installed. 
+
 ## ABIs and TARGET_CPU
 
 `TARGET_CPU` can have the following values, depending on your smartphone CPU
